@@ -15,7 +15,7 @@ public class BMW extends Car implements IVehicle, IWashable {
     public void countOverclocking(){
         if (isElectric){
             Overclocking0_100InSeconds -= 2;
-            System.out.println("You have " + getModel() + "! Acceleration of your car from 0 to 100 is " + Overclocking0_100InSeconds + " seconds");
+            System.out.println("You have " + getModel() + "! Acceleration of your car from 0 to 100 is " + Overclocking0_100InSeconds + " second");
         } else {
             Overclocking0_100InSeconds += 1;
             System.out.println("Acceleration of your car from 0 to 100 is " + Overclocking0_100InSeconds + " seconds");
